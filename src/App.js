@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import CardBase from './components/CardBase';
+import TabListBase from './components/TabListBase';
+import ChartDonut from './components/ChartDonut'
+import DashboardBase from './components/DashboardBase';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <CardBase /> */}
+    {/* <TabListBase /> */}
+    {/* <ChartDonut /> */}
+    <DashboardBase />
+    </>
   );
 }
 
